@@ -1,5 +1,12 @@
 local formatters = {
   lua = { "stylua", lsp_format = "fallback" },
+  python = { "black" },
+  javascript = { "prettier" },
+  typescript = { "prettier" },
+  html = { "prettier" },
+  css = { "prettier" },
+  json = { "prettier" },
+  markdown = { "prettier" },
 }
 
 return {

@@ -36,5 +36,6 @@ vim.o.wrap = false
 vim.o.swapfile = false
 vim.o.undofile = true
 vim.o.clipboard = "unnamedplus"
+vim.o.shell = "/bin/zsh"
 
 
