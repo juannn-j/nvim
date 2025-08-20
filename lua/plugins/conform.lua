@@ -7,6 +7,7 @@ local formatters = {
   css = { "prettier" },
   json = { "prettier" },
   markdown = { "prettier" },
+  rust = { "rustfmt" },
 }
 
 return {

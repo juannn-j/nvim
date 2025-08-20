@@ -5,6 +5,9 @@ vim.api.nvim_create_autocmd("FileType", {
     vim.opt_local.shiftwidth = 2
     vim.opt_local.softtabstop = 2
     vim.opt_local.expandtab = true
+    vim.opt_local.wrap = true
+    vim.opt_local.linebreak = true
+    vim.opt_local.breakindent = true
   end,
 })
 
@@ -19,23 +22,6 @@ vim.opt_local.foldenable = false
 vim.api.nvim_create_user_command("LspInfo", function()
   print(vim.inspect(vim.lsp.get_clients()))
 end, {})
---
--- -- Crea comandos para los executeCommand del LSP markdown_oxide
--- local daily_commands = {
---   "today", "tomorrow", "yesterday",
---   "last friday", "last saturday", "last sunday",
---   "last monday", "last tuesday", "last wednesday", "last thursday",
---   "next friday", "next saturday", "next sunday",
---   "next monday", "next tuesday", "next wednesday", "next thursday",
--- }
---
--- for _, cmd in ipairs(daily_commands) do
---   local command_name = cmd:gsub("^%l", string.upper):gsub(" (%l)", string.upper):gsub(" ", "")
---   vim.api.nvim_create_user_command(command_name, function()
---     vim.lsp.buf.execute_command({ command = cmd })
---   end, {})
--- end
---
 
 local daily_commands = {
   "today", "tomorrow", "yesterday",

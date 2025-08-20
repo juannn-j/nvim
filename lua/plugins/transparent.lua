@@ -15,6 +15,7 @@ return {
   config = function()
     require("transparent").clear_prefix("Snacks")
     require("transparent").clear_prefix("WhichKey")
+    -- require("transparent").clear_prefix("Blink")
   end,
 }
 

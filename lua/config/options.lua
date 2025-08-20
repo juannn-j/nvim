@@ -4,8 +4,8 @@ vim.o.relativenumber = true
 
 -- UI settings
 -- vim.o.signcolumn = "yes"
--- vim.o.splitbelow = true
--- vim.o.splitright = true
+vim.o.splitbelow = true
+vim.o.splitright = true
 -- vim.o.mouse = ""
 -- vim.o.colorcolumn = "80"
 vim.o.termguicolors = true
@@ -31,11 +31,13 @@ vim.o.smartindent = true
 -- vim.o.sidescrolloff = 4
 --
 -- Miscellaneous
+
 vim.o.errorbells = false
 vim.o.wrap = false
 vim.o.swapfile = false
 vim.o.undofile = true
 vim.o.clipboard = "unnamedplus"
 vim.o.shell = "/bin/zsh"
+vim.o.autoindent = true
 
 

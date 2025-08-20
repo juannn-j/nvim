@@ -19,6 +19,9 @@ return {
 				name = "luasnip",
 				config = function()
 					require("luasnip.loaders.from_vscode").lazy_load()
+					require("luasnip.loaders.from_vscode").lazy_load({
+						paths = { "~/.config/nvim/snippets" },
+					})
 				end,
 			},
 			{ "echasnovski/mini.icons", opts = {} },
@@ -39,10 +42,9 @@ return {
 			-- 'enter' for mappings similar to 'super-tab' but with 'enter' to accept
 			-- See the full "keymap" documentation for information on defining your own keymap.
 			keymap = {
-				preset = "default",
-				["<S-Tab>"] = {},
+				preset = "default", 
 				["<Tab>"] = {},
-				["<C-q>"] = { "select_and_accept" },
+				["<S-Tab>"] = { "select_and_accept" },
 				["<C-l>"] = { "snippet_forward", "fallback" },
 				["<C-j>"] = { "snippet_backward", "fallback" },
 			},

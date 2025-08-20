@@ -1,0 +1,30 @@
+{
+  "Journal Template": {
+    "prefix": "jour",
+    "body": [
+      "# date",
+      "",
+      "- Free writing",
+      "- Big Things",
+      "- Logs",
+      "",
+      "${0}"
+    ],
+    "description": "Plantilla para entradas diarias en Markdown"
+  },
+  "Metadatos": {
+    "prefix": "meta",
+    "body": [
+      "---",
+      "title: \"\"",
+      "alias: \"\"",
+      "date: \"\"",
+      "time: \"\"",
+      "status: \"\"",
+      "---",
+      "",
+      "${0}"
+    ],
+    "description": "Plantilla de Metadatos"
+  }
+}

@@ -14,6 +14,8 @@ return {
       "lua",
       "luadoc",
       "markdown",
+      "python",
+      "rust",
       "vim",
       "vimdoc",
       "php",
