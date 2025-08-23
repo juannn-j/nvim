@@ -31,7 +31,7 @@ return {
         "lua_ls",
         "markdown_oxide",
         "pylsp",
-        "omnisharp",
+        "csharp_ls",
         -- "tsserver",
         -- "gopls",
         "bashls",

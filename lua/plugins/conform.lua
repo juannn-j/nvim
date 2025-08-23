@@ -10,7 +10,8 @@ local formatters = {
   rust = { "rustfmt" },
   go = { "gofmt" },                -- Agregado para Go
   ruby = { "rufo" },               -- Agregado para Ruby
-  terraform = { "terraform_fmt" }, -- Agregado para Terraform
+  csharp = { "csharpier" },
+
 }
 
 return {
