@@ -17,7 +17,6 @@ return {
       "eslint_d",   -- Linter para JavaScript/TypeScript (necesita Node.js)
       "shellcheck", -- Linter para scripts shell
       "flake8",     -- Linter para Python
-      "tflint",     -- Linter para Terraform
       "codespell",  -- Linter para errores tipográficos
       "ast-grep",
     }
