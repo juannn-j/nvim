@@ -22,10 +22,7 @@ return {
 				},
 			},
 			codeRunner = {
-				enabled = true,
-				default_method = "slime", -- "molten", "slime", "iron" or <function>
-				ft_runners = {}, -- filetype to runner, ie. `{ python = "molten" }`.
-				-- Takes precedence over `default_method`
+				enabled = false,
 				never_run = { "yaml" }, -- filetypes which are never sent to a code runner
 			},
 		},
@@ -47,15 +44,6 @@ return {
 				desc = "Cerrar vista previa de Quarto",
 			})
 
-			-- Keymaps para ejecutar código
-			vim.keymap.set("n", "<leader>rc", runner.run_cell, { desc = "Run cell", silent = true })
-			vim.keymap.set("n", "<leader>ra", runner.run_above, { desc = "Run cell and above", silent = true })
-			vim.keymap.set("n", "<leader>rA", runner.run_all, { desc = "Run all cells", silent = true })
-			vim.keymap.set("n", "<leader>rl", runner.run_line, { desc = "Run line", silent = true })
-			vim.keymap.set("v", "<leader>r", runner.run_range, { desc = "Run visual range", silent = true })
-			vim.keymap.set("n", "<leader>RA", function()
-				runner.run_all(true)
-			end, { desc = "Run all cells (all languages)", silent = true })
 		end,
 	},
 }

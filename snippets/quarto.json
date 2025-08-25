@@ -1,0 +1,23 @@
+{
+  "Python Cell" : {
+    "prefix" : "cell",
+    "body" : [
+    "```{python}",
+    "${0}",
+    "```"
+    ],
+    "description" : "Plantilla de una celda de python para quarto"
+  },
+  "Quarto yml": {
+    "prefix" : "qyml",
+    "body" : [
+    "---",
+    "title: ",
+    "format: html",
+    "jupyter: python3",
+    "---",
+    "${0}"
+    ],
+    "description" : "Plantilla de una celda de python para quarto"
+  }
+} 

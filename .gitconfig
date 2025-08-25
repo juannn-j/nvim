@@ -1,0 +1,13 @@
+[user]
+	name = juannn-j
+	email = lainfhj@proton.me
+[core]
+	editor = vi
+[init]
+	defaultBranch = main
+[color]
+	ui = auto
+	status = auto
+	branch = auto
+	interactive = auto
+	diff = auto

@@ -77,6 +77,6 @@ vim.lsp.config("*", {
 vim.lsp.enable("lua_ls")
 vim.lsp.enable("pylsp")
 vim.lsp.enable("markdown_oxide")
-vim.lsp.enable("rust-analyzer")
+vim.lsp.enable("rust_analyzer")
 vim.lsp.enable("ltex_plus")
 vim.lsp.enable("csharp_ls")

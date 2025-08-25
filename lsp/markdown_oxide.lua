@@ -1,7 +1,7 @@
 ---@type vim.lsp.Config
 return {
   cmd = { "markdown-oxide" },
-  filetypes = { "markdown" },
+  filetypes = { "markdown", "quarto" },
   root_markers = {
     ".git",
     ".markdownlintrc",

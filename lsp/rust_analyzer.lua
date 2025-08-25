@@ -1,10 +1,10 @@
 ---@type vim.lsp.Config
 return {
-  cmd = { "omnisharp" },
-  filetypes = { "cs", "vb" },
+  cmd = { "rust-analyzer" },
+  filetypes = { "rust" },
   root_markers = {
-    "sln",
-    "csproj",
+    "Cargo.toml",
+    "rust-project.json",
     ".git",
   },
   single_file_support = true,
