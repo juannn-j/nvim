@@ -11,7 +11,7 @@ return {
 			lsp = { enabled = true },
 		},
 		lazy = true,
-    -- render_modes = true,
+		render_modes = true,
 		heading = { enabled = false },
 		sign = { enabled = false },
 		code = { enabled = false },
